@@ -311,7 +311,7 @@ footer p {
     color: grey;
 }
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
     .content2 {
         flex-direction: column;
@@ -387,7 +387,7 @@ footer p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(199, 85, 172, 0.533); /* Dark overlay for readability */
+    background: rgba(199, 85, 172, 0.533); 
     color: white;
     display: flex;
     flex-direction: column;
@@ -415,18 +415,18 @@ footer p {
 }
 .about-section {
     text-align: center;
-    padding: 60px 5%; /* Adjust padding for flexibility */
+    padding: 60px 5%; 
     background-color: #fff;
 }
 
 .about-section h1 {
-    font-size: 2rem; /* Slightly reduce for better scaling */
+    font-size: 2rem; 
     margin-bottom: 20px;
 }
 
 .about-content {
     display: flex;
-    flex-direction: column; /* Stack items on smaller screens */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -434,21 +434,21 @@ footer p {
     margin: 0 auto;
 }
 
-/* Image Styling */
+
 .about-content img {
-    width: 100%; /* Make it flexible */
-    max-width: 350px; /* Prevents it from getting too large */
+    width: 100%;
+    max-width: 350px;
     border-radius: 10px;
 }
 
-/* Text Content */
+
 .text-content {
-    max-width: 100%; /* Full width on smaller screens */
-    text-align: center; /* Center text for small screens */
+    max-width: 100%;
+    text-align: center;
     padding: 0 10px;
 }
 
-/* Read More Functionality */
+
 .description {
     font-size: 16px;
     color: #333;
@@ -457,22 +457,22 @@ footer p {
     text-overflow: ellipsis;
 }
 
-/* Initially hide extra text */
+
 .more-text {
     display: none;
 }
 
-/* Hide checkbox */
+
 #read-more-toggle {
     display: none;
 }
 
-/* When checkbox is checked, show more text */
+
 #read-more-toggle:checked + .more-text {
     display: inline;
 }
 
-/* Read More Button */
+
 .read-more-btn {
     display: inline-block;
     margin-top: 10px;
@@ -488,10 +488,10 @@ footer p {
     background-color: #5a0460;
 }
 
-/* Media Queries */
+
 @media (min-width: 768px) {
     .about-content {
-        flex-direction: row; /* Side-by-side layout on tablets & desktops */
+        flex-direction: row; 
         align-items: center;
         max-width: 900px;
         text-align: left;
@@ -514,7 +514,7 @@ footer p {
 }
 
 
-/* Team Section */
+
 .team {
     text-align: center;
     padding: 60px 20px;
@@ -528,7 +528,7 @@ footer p {
     font-weight: bold;
 }
 
-/* Team Members Grid */
+
 .team-members {
     display: flex;
     flex-wrap: wrap;
@@ -536,7 +536,7 @@ footer p {
     gap: 30px;
 }
 
-/* Individual Member Styling */
+
 .member {
     background: white;
     border-radius: 12px;
@@ -547,7 +547,7 @@ footer p {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-/* Image Styling */
+
 .member img {
     width: 100%;
     height: auto;
@@ -556,7 +556,7 @@ footer p {
     transition: transform 0.3s ease-in-out;
 }
 
-/* Text Styling */
+
 .member h3 {
     font-size: 1.5rem;
     color: #333;
@@ -570,7 +570,7 @@ footer p {
     margin-top: 5px;
 }
 
-/* Hover Effects */
+
 .member:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
@@ -583,7 +583,7 @@ footer p {
     color:#b97396
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .team-members {
         flex-direction: column;
@@ -592,7 +592,7 @@ footer p {
 }
 
 
-/* Responsive Design */
+
 @media (max-width: 1024px) {
     .hero {
         flex-direction: column;
@@ -625,7 +625,7 @@ footer p {
     }
 }
 
-/* Smooth Animation */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -638,13 +638,13 @@ footer p {
 }
 @media (max-width: 768px) {
     .classes {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns per row on smaller screens */
+        grid-template-columns: repeat(2, 1fr); 
     }
 }
 
 @media (max-width: 480px) {
     .classes {
-        grid-template-columns: repeat(1, 1fr); /* 1 column per row on mobile */
+        grid-template-columns: repeat(1, 1fr); 
     }
 }
 
@@ -653,11 +653,11 @@ footer p {
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 90%; /* Adjust width for smaller screens */
+    max-width: 90%; 
     margin: auto;
     position: relative;
     z-index: 1;
-    overflow-x: auto; /* Enables horizontal scrolling for small screens */
+    overflow-x: auto; 
 }
 
 .schedule h2 {
@@ -667,21 +667,21 @@ footer p {
     text-align: center;
 }
 
-/* Table Styling */
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    min-width: 600px; /* Prevents table from getting too small */
+    min-width: 600px; 
 }
 
-/* Ensures the table is scrollable on smaller screens */
+
 .table-container {
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling for mobile */
+    -webkit-overflow-scrolling: touch; 
 }
 
-/* Table Cell Styling */
+
 th, td {
     padding: 15px;
     text-align: center;
@@ -689,20 +689,20 @@ th, td {
     font-size: 1rem;
 }
 
-/* Header Styling */
+
 th {
     background-color: #e99ac2;
     color: white;
     font-size: 1.2rem;
 }
 
-/* Class Colors */
+
 .time, .hatha, .vinyasa, .ashtanga, .restorative, .power, .meditation {
     background-color: white;
     color: #e99ac2;
 }
 
-/* Responsive Stacked Layout for Small Screens */
+
 @media (max-width: 768px) {
     .schedule {
         max-width: 100%;
@@ -716,12 +716,12 @@ th {
     }
 
     th, td {
-        font-size: 0.9rem; /* Reduce font size for better fit */
+        font-size: 0.9rem; 
         padding: 10px;
     }
 }
 
-/* Even More Compact for Phones */
+
 @media (max-width: 480px) {
     th, td {
         font-size: 0.8rem;
@@ -732,7 +732,7 @@ th {
 
 
 
-/* Main Contact Section */
+
 .contact-main {
     max-width: 900px;
     margin: 40px auto;
@@ -753,15 +753,15 @@ th {
     margin-bottom: 30px;
 }
 
-/* Flex Container for Form and Contact Info */
+
 .contact-container {
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    flex-wrap: wrap;  /* Ensures responsiveness */
+    flex-wrap: wrap; 
 }
 
-/* Contact Details */
+
 .contact-details {
     flex: 1;
     min-width: 300px;
@@ -797,7 +797,7 @@ th {
     text-decoration: underline;
 }
 
-/* Contact Form */
+
 .form {
     flex: 1;
     min-width: 300px;
@@ -842,39 +842,39 @@ th {
 .when{
     color: white;
 }
-/* Container for the iframe */
+
 .inspiration {
-    text-align: center; /* Centers the content horizontally */
-    margin: 40px auto;  /* Adds some space around the iframe */
-    max-width: 80%;     /* Limits the width of the section */
+    text-align: center;
+    margin: 40px auto;  
+    max-width: 80%;    
 }
 
-/* Heading Styling */
+
 .inspiration h5 {
     font-size: 1.8rem;
     color: #333;
-    margin-bottom: 20px; /* Adds space between the heading and iframe */
+    margin-bottom: 20px;
     font-family: 'Arial', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-/* Iframe Styling */
+
 .inspiration iframe {
     width: 100%;
-    max-width: 800px; /* Sets a maximum width for the iframe */
+    max-width: 800px;
     height: 450px;
-    border-radius: 8px; /* Rounds the corners */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    border-radius: 8px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .inspiration iframe {
-        height: 315px; /* Adjusts the height on smaller screens */
+        height: 315px; 
     }
 }
-/* Basic styling for the text content */
+
 .text-content {
     font-size: 1.1rem;
     line-height: 1.6;
@@ -882,17 +882,17 @@ th {
 }
 
 .more-text {
-    display: none; /* Initially, hide the extra content */
+    display: none; 
     font-size: 1rem;
     color: #555;
 }
 
-/* Hiding the checkbox itself */
+
 #read-more-toggle {
     display: none;
 }
 
-/* Button styling */
+
 .read-more-btn, .read-less-btn {
     color: white;
     font-weight: bold;
@@ -903,21 +903,21 @@ th {
     text-align: center;
 }
 
-/* Hover effect on buttons */
+
 .read-more-btn:hover, .read-less-btn:hover {
     color: white;
 }
 
-/* When checkbox is checked, show the extra content */
+
 #read-more-toggle:checked ~ .more-text {
-    display: inline; /* Make the hidden content visible */
+    display: inline; 
 }
 
-/* Hide the "Read More" button and show the "Read Less" button */
+
 #read-more-toggle:checked ~ #read-more-btn {
-    display: none; /* Hide "Read More" button */
+    display: none; 
 }
 
 #read-more-toggle:checked ~ #read-less-btn {
-    display: inline; /* Show "Read Less" button */
+    display: inline; 
 }
